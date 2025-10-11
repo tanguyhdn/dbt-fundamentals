@@ -3,3 +3,15 @@ target/
 dbt_modules/
 logs/
 dbt_internal_packages/
+
+# dbt build artifacts
+dbt_packages/
+
+# Local dbt profiles (keep out of repo)
+.dbt/
+profiles.yml
+
+# Keys & creds
+*.json
+*.key
+*.pem
