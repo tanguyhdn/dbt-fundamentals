@@ -21,7 +21,7 @@ It transforms raw data from operational sources (Jaffle Shop & Stripe) into clea
 | **Language**                | SQL + Jinja (for dbt models) |
 
 ### Project Structure
-
+```
 dbt_fundamentals/
 ├── models/
 │   ├── staging/
@@ -38,7 +38,7 @@ dbt_fundamentals/
 ├── README.md
 └── .dbt/
     └── profiles.yml
-
+```
 - staging/ → cleans and renames raw source tables
 - marts/ → combines staging models into analytics-ready datasets (dimensions / facts)
 - macros/ → reusable SQL logic (if any)
